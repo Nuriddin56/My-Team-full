@@ -530,3 +530,32 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
 }
+
+.about-section {
+  max-width: 100%;
+  position: relative;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+.line {
+  width: 50px;
+  height: 4px;
+  background-color: #f47e7e;
+  margin: 16px 0;
+  margin-left: 590px;
+}
+
+.about-section p {
+  font-family: "Livvic", sans-serif;
+  padding-left: 590px;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
