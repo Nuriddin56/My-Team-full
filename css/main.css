@@ -75,6 +75,10 @@ main {
   flex-grow: 1;
 }
 
+h1 {
+  margin: 0;
+}
+
 #active {
   color: #f67e7e;
 }
@@ -249,4 +253,280 @@ main {
 .footer-right .social-icons img {
   width: 16px;
   height: 16px;
+}
+
+.hero {
+  padding-top: 110px;
+  padding-bottom: 250px;
+  background-color: #014e56;
+  background-image: url(../images/bg-pattern-home-1.svg),
+    url(../images/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-position: top 70px left -100px, bottom 0 right 165px;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: 100px;
+  line-height: 100px;
+}
+.hero__description {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__description__text {
+}
+.divider {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+}
+.hero-divider {
+  margin-bottom: 79px;
+  background-color: #79c8c7;
+}
+
+.footer__cta {
+  background-color: #f67e7e;
+  color: #012f34;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-image: url(../images/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.orange-text {
+  color: #f67e7e;
+}
+
+.testemonials {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #014e56;
+
+  i {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+}
+.testemonials-container {
+}
+.container {
+}
+.testemonials-titles {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+}
+.blue-text {
+  color: #79c8c7;
+}
+.testemonilas-list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.testemonial-item {
+  background-image: url(../images/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
+  width: 350px;
+}
+.testemonials-description {
+  margin-bottom: 24px;
+}
+
+.testemonials-name {
+  font-size: 18px;
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+
+.testemonials-avatar {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+}
+
+.features {
+  background-image: url(../images/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position: top 600px right -100px, bottom 0 right 165px;
+  display: flex;
+  justify-content: space-between;
+  padding: 250px 100px;
+  background-color: #002529;
+  gap: 125px;
+  flex-wrap: wrap;
+}
+
+.features-text {
+  flex: 1;
+  min-width: 540px;
+}
+
+.features-text .line {
+  width: 30px;
+  height: 4px;
+  background-color: #eb5757;
+  margin-bottom: 54px;
+}
+
+.features-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.features-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 300px;
+}
+
+.feature-item {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.icon-circle {
+  padding: 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle img {
+  width: 72px;
+  height: 72px;
+}
+
+.feature-item h3 {
+  color: #eb5757;
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.mainn {
+  background-color: #012f34;
+  width: 1540px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+  justify-items: center;
+}
+
+.card,
+.quote-card {
+  background-color: #002529;
+  padding: 70px;
+  position: relative;
+  width: 100%;
+  width: 350px;
+  height: 260px;
+}
+
+.card img {
+  width: 96px;
+  height: 96px;
+  border: 3px solid #c4fffe;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.card h3 {
+  margin: 20px 10 5px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #b2dfdb;
+}
+
+.plus-btn,
+.quote-btn {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.plus-btn {
+  background-color: #ff6f61;
+  color: #002529;
+}
+
+.quote-btn {
+  background-color: #80cbc4;
+  color: #012f34;
+}
+
+.quote-card p {
+  font-size: 0.9rem;
+  color: #b2dfdb;
+}
+
+.socials {
+  margin-top: 15px;
+}
+
+.socials i {
+  margin: 0 8px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
 }
